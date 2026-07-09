@@ -12,13 +12,15 @@ The workflow is designed as both a technical portfolio project and a practical e
 
 The main workflow processes DWD raster data and converts it into analysis-ready regional datasets.
 
+
 The workflow produces:
 
 * clipped monthly GeoTIFF rasters for the study area over all available temporal resolutions
 * a regional mean time series as CSV
 * a stacked raster time series as NetCDF
 * reusable outputs for follow-up visualization and analysis notebooks
-
+* visualization of climate data as graphics and spatial plits
+* 
 The same workflow structure can be adapted to other DWD-CDC raster datasets, such as temperature or precipitation, by changing the dataset URL, filename pattern, value column, and unit.
 
 ---
@@ -34,3 +36,9 @@ More information about the ARKE project is available here:
 https://www.th-koeln.de/en/spatial-development-and-infrastructure-systems/arke---adapting-to-the-consequences-of-climate-change-for-the-kolpingstadt-kerpen_113290.php
 
 Although the notebooks use Kerpen as an example, the workflow can be adapted to other municipalities or regions in Germany.
+
+---
+
+## Visualizations
+
+![Germany Heatwave](outputs/temperatures_germany_heatwave_062026.png)
