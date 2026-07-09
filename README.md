@@ -20,7 +20,7 @@ The workflow produces:
 * a stacked raster time series as NetCDF
 * reusable outputs for follow-up visualization and analysis notebooks
 * visualization of climate data as graphics and spatial plits
-* 
+  
 The same workflow structure can be adapted to other DWD-CDC raster datasets, such as temperature or precipitation, by changing the dataset URL, filename pattern, value column, and unit.
 
 ---
