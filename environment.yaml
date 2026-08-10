@@ -1,0 +1,16 @@
+name: dwd_pipeline
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - gdal
+  - rasterio
+  - geopandas
+  - numpy
+  - pandas
+  - xarray
+  - rioxarray
+  - netcdf4
+  - pytest
