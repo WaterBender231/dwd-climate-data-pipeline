@@ -73,13 +73,6 @@ Example outputs include:
 - maps of clipped climate rasters
 
 
-Example visualization using temperature data:
-
-![Germany Heatwave](figures/temperatures_germany_heatwave_062026.png)
-Monthly max temperature derived from DWD gridded raster data.
-
-
-
 ## Installation
 
 ### Windows (Anaconda / Conda)
